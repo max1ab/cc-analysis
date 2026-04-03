@@ -1083,11 +1083,44 @@ export default function App() {
         <footer className="flex flex-col gap-3 pb-8 text-sm text-muted-foreground md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-3">
             <BotIcon className="size-4" />
-            <span>当前页面已经把 Claude Code 的主循环、数据体量、扩展系统和关键彩蛋全部接进叙事结构。</span>
+            <span>基于 3 月 31 日的 claude-code 版本分析</span>
           </div>
-          <div className="flex items-center gap-2">
-            <LockIcon className="size-4" />
-            <span>下一步更适合继续精修视觉和动效，不必再补结构。</span>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+            <div className="flex items-center gap-2">
+              <LockIcon className="size-4" />
+              <span>作者：max1ab</span>
+              <a
+                href="https://github.com/max1ab"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center text-stone-600 transition hover:text-stone-900"
+                aria-label="max1ab GitHub"
+              >
+                <svg viewBox="0 0 24 24" className="size-4 fill-current" aria-hidden="true">
+                  <path d="M12 .5C5.65.5.5 5.65.5 12.03c0 5.1 3.3 9.43 7.88 10.95.58.1.8-.25.8-.57 0-.28-.01-1.2-.02-2.18-3.2.7-3.87-1.37-3.87-1.37-.53-1.35-1.28-1.71-1.28-1.71-1.05-.72.08-.7.08-.7 1.15.08 1.76 1.2 1.76 1.2 1.03 1.77 2.7 1.26 3.36.97.1-.75.4-1.26.73-1.55-2.56-.3-5.26-1.3-5.26-5.77 0-1.27.45-2.3 1.18-3.11-.12-.3-.5-1.52.11-3.17 0 0 .97-.31 3.18 1.19a10.9 10.9 0 0 1 5.78 0c2.2-1.5 3.17-1.19 3.17-1.19.62 1.65.24 2.87.12 3.17.73.81 1.18 1.84 1.18 3.11 0 4.49-2.7 5.47-5.28 5.76.41.36.78 1.08.78 2.18 0 1.58-.01 2.85-.01 3.24 0 .31.2.68.8.56A11.54 11.54 0 0 0 23.5 12.03C23.5 5.65 18.35.5 12 .5Z" />
+                </svg>
+              </a>
+            </div>
+            <div className="flex flex-wrap items-center gap-2 text-xs">
+              <span className="uppercase tracking-[0.18em] text-stone-500">inspire by</span>
+              <a
+                href="https://x.com/Fried_rice/status/2038894956459290963"
+                target="_blank"
+                rel="noreferrer"
+                className="transition hover:text-stone-900"
+              >
+                @Fired_rice
+              </a>
+              <span>/</span>
+              <a
+                href="https://ccunpacked.dev/"
+                target="_blank"
+                rel="noreferrer"
+                className="transition hover:text-stone-900"
+              >
+                @zackautocracy
+              </a>
+            </div>
           </div>
         </footer>
       </section>
